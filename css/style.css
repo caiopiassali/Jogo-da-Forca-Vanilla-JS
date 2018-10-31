@@ -1,0 +1,130 @@
+/**
+* Jogo da Forca - Vanilla JS
+* File: style.css
+* Author: Caio Piassali
+* Github: https://github.com/caiopiassali
+* Date: 31/10/2018
+*/
+
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.dv-titulo {
+    width: 100%;
+    background: #3366FF;
+    border-radius: 50%;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.ipt-letra {
+    display: inline;
+    width: 30px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #111;
+    background-color: #fff;
+    background-image: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 5px solid #000000;
+    border-left: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 3px;
+    font-family: Comic Sans MS;
+    font-size: 25px;
+    color: #3366FF;
+    border-radius: 3px;
+}
+
+.dv-dica {
+    font-family: Verdana;
+    font-size: 15px;
+    margin: 20px 0 20px 0;
+    background: #FF9900;
+    border-radius: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+.dv-dica p {
+    padding: 10px;
+    text-align: center;
+}
+
+.dv-teclado {
+    width: 60%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+}
+
+.dv-forca {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+.dv-forca img {
+    width: 100%;
+    height: 100%;
+}
+
+.dv-novamente {
+    display: inline-block;
+    font-family: Verdana;
+    width: 100%;
+}
+
+.btn-letra {
+    padding: 15px;
+    color: #FFFFFF;
+    background: #3366FF;
+    border: none;
+    margin: 0.5px;
+    border-radius: 2px;
+}
+
+.letracorreta {
+    padding: 15px;
+    color: #FFFFFF;
+    border: none;
+    margin: 0.5px;
+    border-radius: 2px;
+    background: green;
+}
+
+.letraerrada {
+    padding: 15px;
+    color: #FFFFFF;
+    border: none;
+    margin: 0.5px;
+    border-radius: 2px;
+    background: red;
+}
+
+.btn-novamente {
+    width: 100%;
+    font-family: Verdana;
+    font-size: 15px;
+    margin: 20px 0 20px 0;
+    background: #FF9900;
+    border-radius: 20px;
+    width: 200px;
+    margin: 0 auto;
+    color: #FFF;
+    padding: 10px;
+    border: none;
+}
